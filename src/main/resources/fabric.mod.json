@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "logical_mutation",
+  "version": "${version}",
+  "name": "Logical Mutation",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/logical_mutation/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "mini.logical_mutation.client.Logical_MutationDataGenerator"
+    ],
+    "client": [
+      "mini.logical_mutation.client.Logical_MutationClient"
+    ],
+    "main": [
+      "mini.logical_mutation.Logical_Mutation"
+    ]
+  },
+  "mixins": [
+    "logical_mutation.mixins.json",
+    {
+      "config": "logical_mutation.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
