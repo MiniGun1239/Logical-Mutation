@@ -1,4 +1,4 @@
-package mini.logical_mutation;
+package com.MiniGun1239.logical_mutation;
 
 import net.fabricmc.api.ModInitializer;
 

@@ -11,13 +11,13 @@
   "environment": "*",
   "entrypoints": {
     "fabric-datagen": [
-      "mini.logical_mutation.client.Logical_MutationDataGenerator"
+      "com.MiniGun1239.logical_mutation.client.Logical_MutationDataGenerator"
     ],
     "client": [
-      "mini.logical_mutation.client.Logical_MutationClient"
+      "com.MiniGun1239.logical_mutation.client.Logical_MutationClient"
     ],
     "main": [
-      "mini.logical_mutation.Logical_Mutation"
+      "com.MiniGun1239.logical_mutation.Logical_Mutation"
     ]
   },
   "mixins": [

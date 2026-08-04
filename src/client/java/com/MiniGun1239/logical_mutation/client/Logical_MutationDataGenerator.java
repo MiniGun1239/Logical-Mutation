@@ -1,4 +1,4 @@
-package mini.logical_mutation.client;
+package com.MiniGun1239.logical_mutation.client;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;

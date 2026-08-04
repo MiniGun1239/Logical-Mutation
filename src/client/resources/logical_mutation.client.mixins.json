@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "mini.logical_mutation.mixin.client",
+  "package": "com.MiniGun1239.logical_mutation.mixin.client",
   "compatibilityLevel": "JAVA_25",
   "client": [
   ],
